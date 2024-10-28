@@ -1,50 +1,33 @@
-# Welcome to your Expo app 👋
+## React Native Todo List
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+https://efficient-sloth-d85.notion.site/Desafio-01-Praticando-os-conceitos-do-React-Native-f8f164e29df74cd987e1f9aebf142ffb
 
-## Get started
 
-1. Install dependencies
+### Description
 
-   ```bash
-   npm install
-   ```
+Nesse desafio, você vai desenvolver uma aplicação de controle de tarefas no estilo **to-do list**, que contém as seguintes funcionalidades:
 
-2. Start the app
+- Adicionar uma nova tarefa
+- Marcar e desmarcar uma tarefa como concluída
+- Remover uma tarefa da listagem
+- Mostrar o progresso de conclusão das tarefas
 
-   ```bash
-    npx expo start
-   ```
+Apesar de serem poucas funcionalidades, você vai precisar relembrar conceitos como:
 
-In the output, you'll find options to open the app in a
+- Estados
+- Imutabilidade do estado
+- Listas e chaves no React Native
+- Propriedades
+- Componentização
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Para completar esse desafio, você pode necessitar de pesquisas para aprender sobre métodos de manipulação de arrays como map, filter  ou até mesmo reduce. 
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### FIGMA
+https://www.figma.com/file/vYdNgya9SPQkxdXRrQeRQI/ToDo-List-%E2%80%A2-Desafio-React-Native-Copy?fuid=492108263398977563
 
-## Get a fresh project
 
-When you're ready, run:
+### CMD
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- npx react-native start --reset-cache
+- npx expo start --web --clear
+- npx expo-doctor
