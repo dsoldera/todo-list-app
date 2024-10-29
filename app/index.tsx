@@ -13,11 +13,9 @@ export default function Index() {
   const placeholder = 'Adicione uma nova tarefa';
   
   useEffect(() => {
-    console.log('tasks List', tasksList)
   }, [tasksList]);
 
   const handleRemoveTask = (id: string) => {
-    console.log('removed task', id);
     const filteredTasks = tasksList!.filter((task) => task.id !== id)
     setTasksList(filteredTasks);
     if(tasksDoneNumber != 0) setTasksDoneNumber(tasksDoneNumber -1);
@@ -34,6 +32,7 @@ export default function Index() {
       }
       return item;
     })
+    filteredItems.sort((b, a) =>  Number(b.statusDone) - Number(a.statusDone));
     setTasksList(filteredItems);
   }
 
